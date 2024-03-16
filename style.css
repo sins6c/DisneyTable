@@ -1,0 +1,66 @@
+body{
+    background-image: url(./clear\ back.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    opacity:100%;
+}
+.whole{
+    display: flex;
+    
+    justify-content: center;  
+    align-items:center; 
+    height:100vh;           
+    width:100%;    
+    justify-content: space-evenly;   
+    
+    
+
+}
+
+img{
+    height: 150px;
+    border-radius: 20% ;
+    box-shadow: -3px 6px 8px rgba(9, 9, 9, 0.473) ;
+    opacity: 0.6; 
+       
+
+
+    width: 150px;
+    border-radius: 50px 0 50px 0;
+    padding: 10px;
+}
+img:hover {
+    transform: scale(1.2) rotate(-3deg);  
+    transition: all .2s ease-in-out;
+    opacity: 100%; 
+}
+h1{
+    color: white;
+    background: rgba(0, 0, 0, 1);
+    width: 600px;
+    text-align: center;
+    margin: auto;
+    font-family:  'Raleway', sans-serif;
+    line-height: 48/17 = 2.691;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: -0.03em;
+}
+
+
+.name{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(6, 6, 6);
+    width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+h3{
+    color: white;
+    font-size: xx-large;
+}
+
+
